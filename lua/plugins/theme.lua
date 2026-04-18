@@ -8,7 +8,10 @@ return {
 	},
 	{"nvim-tree/nvim-web-devicons",
 	lazy = false,
-	opts = {}
-	}
+	},
+	{"nvim-mini/mini.nvim",
+	version = false,
+	lazy = false,
+	},
 }
 

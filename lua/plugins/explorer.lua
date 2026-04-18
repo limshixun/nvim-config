@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/oil.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
+    dependencies = { "nvim-tree/nvim-web-devicons", "nvim-mini/mini.nvim" },
     lazy = false,
     keys = {
       {
@@ -29,8 +29,9 @@ return {
       },
 	  float = {
 		  padding = 2,
-		  max_width = 0.5,
+		  max_width = 0.7,
 		  preview_split = "right",
+		  border = "rounded",
 	  },
 	  preview_win = {
 		  update_on_cursor_move = true,
