@@ -1,4 +1,5 @@
 require("config.lazy")
+require("toggleterm").setup()
 
 -- Quick Save and Quit
 vim.keymap.set({'n','i'}, '<F5>', ':wq<cr>', { desc = 'Save file'})
