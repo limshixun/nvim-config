@@ -15,11 +15,5 @@ return {
 		end
 		}
 	},
-	-- config = function()
-	-- 	vim.keymap.set('n', "<space>fd", require('telescope.builtin').find_files)
-	-- 	vim.keymap.set('n', "<space>nc", function() 
-	-- 		require('telescope.builtin').find_files { cwd = vim.fn.stdpath("config")}
-	-- 	end)	
-	-- end
 }
 }
