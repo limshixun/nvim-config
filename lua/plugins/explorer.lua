@@ -5,12 +5,11 @@ return {
     lazy = false,
     keys = {
       {
-        "<F1>",
+        "<space><Tab>",
         function()
 			local oil = require("oil")
 			oil.toggle_float(nil, {preview = { vertical = true}})
         end,
-        mode = { "n", "t", "i" },
         desc = "Toggle Oil in vsplit",
       },
     },
