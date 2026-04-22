@@ -16,3 +16,6 @@ vim.opt.shiftwidth = 2
 
 -- Line number
 vim.opt.number = true
+
+-- Diagnostic
+vim.diagnostic.config({ virtual_text = true, virtual_lines = true })
